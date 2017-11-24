@@ -5,8 +5,11 @@ paginate:            5
 # Build settings
 markdown:            kramdown
 highlighter:         rouge
-permalink:           none
+permalink:           pretty
+relative_permalinks: false
 plugins:             [jekyll-paginate, jekyll-sitemap, jekyll-feed, jekyll-seo-tag]
+url:                 http://lanyon.getpoole.com
+baseurl:             '/Millennial/'
 
 sass:
   sass_dir: assets/css
